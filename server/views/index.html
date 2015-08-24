@@ -5,11 +5,12 @@
 
 {% block content %}
 
-  <div class="container">
-
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-
-  </div>
+  <form method="post" action="/">
+    <h3>Number of Students</h3>
+    <input type="text" name="number"><br>
+    <h3>Number of Chunks</h3>
+    <input type="text" name="chunk"><br>
+    <input type="submit"><br>
+  </form>
 
 {% endblock %}

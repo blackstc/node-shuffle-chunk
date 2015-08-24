@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+  {% for chunks in chunked %}
+    <p>{{chunks}}</p>
+    {% endfor %}
+
+{% endblock %}
